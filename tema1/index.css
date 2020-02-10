@@ -1,0 +1,41 @@
+body {
+	background-color: #000000;
+}	
+
+h1 {
+	color: #ffff;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.holder {
+   height: 12px;
+   background: #fefefe;
+   width: 400px;
+   position: relative;
+   margin-top: 200px;
+   margin-left: auto;
+   margin-right:auto;
+   box-shadow: 2px 2px 4px;
+}
+
+.bar {
+   background: #02b1c4;
+   height: 100%;
+
+}
+
+.bartext {
+	position: absolute;
+	top: -15px;
+	left: 90%;
+	color: #ffff;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.barname {
+		position: absolute;
+	top: -19px;
+	left: 0%;
+	color: #ffff;
+	text-shadow: 2px 2px 4px #000000;
+}
