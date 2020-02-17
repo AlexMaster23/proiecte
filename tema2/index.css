@@ -1,0 +1,19 @@
+nav{
+    left: -100%;
+    position: fixed;
+
+}
+
+#check:checked + nav{
+    left: 0px;
+}
+
+li a {
+  display: block;
+  width: 120px;
+}
+
+ul {
+  list-style-type: none;
+  width: 120px;
+}
