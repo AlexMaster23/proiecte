@@ -1,0 +1,165 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body,html {
+  text-align: center;
+  font-family: tahoma;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  background-image: url(https://wallpaperplay.com/walls/full/0/2/7/126417.jpg);
+}
+
+.Video1 {
+  display: none;
+}
+.Video2 {
+  display: none;
+}
+.Video3 {
+  display: none;
+}
+
+.Audio1 {
+  display: none;
+}
+.Audio2 {
+  display: none;
+}
+.Audio3 {
+  display: none;
+}
+
+.letter {
+  position: relative;
+  top: calc(50% - 60px);
+  text-shadow: 0 0 3px white;
+}
+
+.letter:nth-child(1)
+{
+  animation: fade 4s infinite 200ms;
+}
+.letter:nth-child(2)
+{
+  animation: fade 4s infinite 400ms;
+}
+
+.letter:nth-child(3)
+{
+  animation: fade 4s infinite 600ms;
+}
+
+.letter:nth-child(4)
+{
+  animation: fade 4s infinite 800ms;
+}
+
+.letter:nth-child(5)
+{
+  animation: fade 4s infinite 1000ms;
+}
+
+.letter:nth-child(6)
+{
+  animation: fade 4s infinite 1200ms;
+}
+
+.letter:nth-child(7)
+{
+  animation: fade 4s infinite 1400ms;
+}
+.letter:nth-child(8)
+{
+  animation: fade 4s infinite 1600ms;
+}
+.letter:nth-child(9)
+{
+  animation: fade 4s infinite 1800ms;
+}
+
+@keyframes fade
+{
+      50%
+         { 
+             opacity: 0.02;
+         }
+}
+
+span {
+  font-size:  120px;
+  color: #f57a00;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
